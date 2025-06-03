@@ -30,3 +30,6 @@ docker compose restart
 📌 Notes
 Make sure port 5432 is not blocked by another PostgreSQL instance.
 Customize docker-compose.yml if needed (e.g., different DB name or password).
+
+
+To run a specific sql file: psql -h localhost -U user -d practice -f path/to/my_queries.sql
